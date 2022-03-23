@@ -1,0 +1,51 @@
+.services{
+    padding: 30px 0;
+    h1{
+        font-size:48px;
+        padding: 50px 0;
+        color: $seconderycolor;
+    }
+    .card{
+        padding-bottom: 50px;
+        background-color: $lightcolor;
+        i{  
+          text-align: center;
+          font-size: 42px;
+          width: 100px;
+          height: 100px;
+          color: $primarycolor;
+          background-color:lighten($bgcolor,88%);
+          margin: 80px auto 10px auto;
+          line-height: 100px; 
+          border-radius: 50%;
+        }
+       .card-body{
+           h3{
+               text-align: center;
+               font-weight: 600;
+               font-size: 32px;
+               color: $bgtextcolor;
+               margin-bottom: 20px;
+           }
+           p{
+               text-align: center;
+               font-size: 18px;
+               color: $bgtextcolor;
+           }
+           
+       }         
+    }
+}
+@media screen and(max-width:992px) {
+    .services{
+        margin-top: 20px;
+        padding-top: 20px;
+        h1{
+            margin-top: 20px;
+            padding-top: 20px;
+        }
+        .card{
+            margin-top: 20px;
+        }
+    }
+}

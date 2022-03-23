@@ -1,0 +1,113 @@
+.section-hero{
+    padding-top: 180px;
+    .hero-custom{
+       span{
+            color: $primarycolor;
+            font-size: 20px;
+        }
+       .name-border{
+           border-left: 3px solid $primarycolor;
+           padding-left: 22px;
+        h1{
+            margin-top: 30px;
+            color: $namecolor;
+            font-size: 50px;
+            font-weight: 600;
+        }
+        h2{
+            margin-top: 20px;
+            color: rgba(255, 255, 255, 0.904);
+            font-size: 38px;
+            font-weight: 600;
+        }
+        p{
+            margin: 30px 0 30px 0;
+            color: $lightcolor;
+            font-size: 20px;
+            max-width: 600px;
+            width: 100%;
+        }
+        
+       }
+        ul{
+            list-style-type: none;
+            padding: 0;
+            margin-top: 52px;
+            li{
+                display: inline-block;
+                a{
+                   padding: 10px 20px; 
+                   &.hire-btn{
+                    margin-right: 20px;
+                    background-color: $primarycolor;
+                    color:$bgcolor;
+                    text-decoration: none;
+                    font-size: 18px;
+                    font-weight: 600;
+                    padding: 16px 34px; 
+                    border-radius: 5px ; 
+                    border: 1px solid $primarycolor;
+                    transition: 0.3s;
+                    &:hover{
+                        background-color: transparent;
+                        border: 1px solid $primarycolor;
+                        box-shadow: 0 0 10px $primarycolor;
+                        color:$primarycolor;
+                        font-size: 18px;
+                        font-weight: 600;                      
+                        }
+                   }
+                   &.social-btn{
+                    background-color:$bgcolor;
+                    color: $primarycolor;
+                    text-decoration: none;
+                    font-size: 20px;
+                    font-weight: 900;
+                    margin-left: 10px;
+                    padding: 16px 34px; 
+                    border: 1px solid $primarycolor ;
+                    border-radius: 10px 30px ;
+                    box-shadow: 0 0 10px $primarycolor;
+                    transition: 0.3s;
+                    &:hover{
+                        background-color: $primarycolor;
+                        color:$bgcolor;
+                        font-size: 20px;                       
+                        }
+                    }
+                } 
+            }
+       }     
+    }
+    img{
+       width: 100%;
+       max-width: 420px;
+       height: 420px;
+       margin-top: 10px;
+       border-radius:50%;
+       object-fit: cover;
+       object-position: top;
+       border: 4px solid rgb(2, 2, 2);
+       box-shadow: 0 0 25px $primarycolor ;
+    }
+}
+
+@media screen and(max-width:992px) {
+    .section-hero{
+        padding-top: 130px;
+        .name-border{
+            border: none !important;
+            margin-left: 0 !important;
+            padding-left: 0 !important;
+            p{
+                text-align: left;
+            }
+        }
+        img{
+            margin-top: 50px;
+            width: 350px;
+            height: 350px;
+            margin-left: 60px;
+        }
+    }
+}

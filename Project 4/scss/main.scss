@@ -1,0 +1,11 @@
+@import "gobal","header","hero","about","service","protfolio","contact","testimonial","footer";
+
+body{
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    background-color:$bgcolor;
+    
+    overflow-x: hidden;
+}
